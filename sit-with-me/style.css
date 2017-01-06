@@ -3,8 +3,6 @@ html {
 }
 
 body {
-	background-image: url(images/bg.png);
-    background-position: center;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -13,6 +11,13 @@ body {
     max-width: 800px;
     padding: 30px;
     line-height: 1.5;
+}
+
+.icon {
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
 }
 
 a {
@@ -46,7 +51,6 @@ h3 {
 #content {
 	background: rgba(20, 20, 20, .90);
     padding: 10px 50px 30px 50px;
-    height: 800px;
 }
 
 @-webkit-keyframes colorize {
