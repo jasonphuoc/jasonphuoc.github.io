@@ -141,6 +141,11 @@
       visibility: visible;
   }
 
+.previewImg {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
 .space30 {
     margin-bottom: 30px;
 
@@ -188,5 +193,10 @@
   @media screen and (max-width: 480px) {
     .logo {
         font-size: 150px;
+    }
+      
+    .previewImg {
+        width: 1000%;
+        margin-bottom: 20px;
     }
   }
